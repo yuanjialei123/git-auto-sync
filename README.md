@@ -142,6 +142,10 @@ node build-ui.js
 | `--interval <min>` | 覆盖同步间隔（分钟） |
 | `--help` | 显示帮助信息 |
 
+<img width="1840" height="881" alt="image" src="https://github.com/user-attachments/assets/f04d8aec-7286-4409-b410-8fea1082c8bc" />
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/e09555a2-f20a-4bc5-a3c1-730d52394b7a" />
+
+
 ## 常见问题
 
 **Q: exe 运行提示找不到 node.exe？**
