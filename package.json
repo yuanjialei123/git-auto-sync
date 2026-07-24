@@ -1,0 +1,22 @@
+{
+  "name": "git-auto-sync",
+  "version": "2.0.0",
+  "description": "Git 自动同步工具 - 定时自动提交并推送代码到远程仓库，带 Web UI",
+  "main": "git-sync-server.js",
+  "bin": "git-auto-sync.js",
+  "scripts": {
+    "start": "node git-auto-sync.js",
+    "ui": "node git-sync-server.js",
+    "once": "node git-auto-sync.js --once",
+    "status": "node git-auto-sync.js --status",
+    "build": "node build-ui.js"
+  },
+  "keywords": [
+    "git",
+    "auto",
+    "sync",
+    "backup",
+    "ui"
+  ],
+  "license": "MIT"
+}

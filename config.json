@@ -1,0 +1,16 @@
+{
+  "sync_interval_minutes": 30,
+  "repositories": [
+    {
+      "name": "我的项目",
+      "path": "D:/your-project-path",
+      "branch": "main",
+      "include_folders": ["src", "docs", "config"],
+      "exclude_patterns": ["*.log", "*.tmp", "__pycache__", ".env"],
+      "commit_message_prefix": "[Auto Sync]",
+      "enabled": true
+    }
+  ],
+  "log_file": "git_auto_sync.log",
+  "max_log_size_mb": 10
+}
